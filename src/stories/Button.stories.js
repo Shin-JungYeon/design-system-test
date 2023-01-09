@@ -31,7 +31,7 @@ export const Primary = Template.bind({});
 // More on args: https://storybook.js.org/docs/vue/writing-stories/args
 Primary.args = {
   primary: true,
-  label: 'Button',
+  label: 'Button AAA',
 };
 
 export const Secondary = Template.bind({});
@@ -42,11 +42,18 @@ Secondary.args = {
 export const Large = Template.bind({});
 Large.args = {
   size: 'large',
-  label: 'Button',
+  label: 'Test B',
 };
 
 export const Small = Template.bind({});
 Small.args = {
   size: 'small',
-  label: 'Button',
+  label: 'Button small',
+};
+
+Primary.parameters = {
+  design: {
+    type: 'figma',
+    url: 'https://www.figma.com/file/l6NGSG3WxrZ3B4ImwzaBWl/Untitled?node-id=2%3A8&t=MCQTOhJqYWXJpN6S-1',
+  },
 };

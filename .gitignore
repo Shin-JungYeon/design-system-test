@@ -28,3 +28,8 @@ coverage
 *.sw?
 
 package-lock.json
+
+yarn.lock
+
+# nodeenv
+env-*
