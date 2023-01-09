@@ -20,4 +20,4 @@ jobs:
         with:
           #👇 Chromatic projectToken, see https://storybook.js.org/tutorials/intro-to-storybook/vue/en/deploy/ to obtain it
           projectToken: 83c9d2d2cd0e
-          token: tokentoken
+#          token: tokentoken
